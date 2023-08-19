@@ -1,7 +1,7 @@
 from socket import *
 from caesar import Caesar
 
-serverName = "10.1.70.16" # IPv4 // ::1 IPv6
+serverName = "192.168.0.71" # IPv4 // ::1 IPv6
 serverPort = 12500
 clientSocket = socket(AF_INET, SOCK_DGRAM) # AF_INET6
 print("UDP Client\n")
